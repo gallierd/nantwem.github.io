@@ -1,43 +1,220 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Web | Portofolio</title>
-</head>
-<body>
-    <div class="container">
-        <div class="sidebar">
-            <nav>
-                <ul>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Portofolio</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Contact</a></li>   
-                </ul>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Info</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">........</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#hobby" class="nav__link">Hobby</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
             </nav>
-        </div>
-        <main class="content">
-              <section class="hero">
-                  <img src="online.png" alt="">
-              <div class="hero-content">
-                  <h1>Profesi</h1><br></h2>Junior Content Writer at Dicoding</h2><br><br>   
-<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, aperiam dolore assumenda velit repellendus recusandae magni consectetur mollitia facere incidunt inventore perspiciatis  debitis doloribus ullam minima culpa voluptatem. Repellendus, option.</p>
-<a href="" class="action-btn">Profile Saya</a>
-              </div>
-                </section>
-        </div>
-        <div class="footer">
-            <footer>
-            <ul>
-                <li><img src="instagram.png" alt=""><p>Instagram</p></a></li>
-                <li><img src="facebook.png" alt=""><p>Facebook</p></a></li>
-                <li><img src="twitter.png" alt=""><p>Twitter</p></a></li>
-                <li><img src="telegram.png" alt=""><p>Telegram</p></a></li>
-            </ul>
-            </footer>
-        </div>
-    </div>    
-</body>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hello,<br>I'am <span>Febri</span><br>Salam kenal</h1>
+                    <audio controls="" autoplay="true" loop="true">
+                        <source src="assets/audio/1.flac" type="audio/flac">
+                    </audio>
+                </div>
+                <div class="home__social">
+                    <a href="https://web.facebook.com/febri.ii.96387/" class="home__social-icon"><i class='bx bxl-facebook' ></i></a>
+                    <a href="https://www.instagram.com/febrii.exe" class="home__social-icon"><i class='bx bxl-instagram' ></i></a>
+                    <a href="https://t.me/akarin17/" class="home__social-icon"><i class='bx bxl-telegram' ></i></a>
+                </div>
+                <div class="home__img">    
+                    <img src="assets/img/b.png" alt="">
+                </div>
+            </section>
+
+            <!--===== HOBBY =====-->
+             <section class="hobby section" id="hobby">
+                <h2 class="section-title">Hobby</h2>
+
+                <div class="hobby__container bd-grid">          
+                    <div>
+                        <h2 class="hobby__subtitle">Hobby?</h2>
+                        <p class="hobby__text">My hobby in free time</p>
+                        <div class="hobby__data">
+                            <div class="hobby__names">
+                                <i class='bx bxl-facebook hobby__icon'></i>
+                                <span class="hobby__name">Play A Facebook</span>
+                            </div>
+                            <div class="hobby__bar hobby__1">
+
+                            </div>
+                            <div>
+                                <span class="hobby__percentage">80%</span>
+                            </div>
+                        </div>
+                        <div class="hobby__data">
+                            <div class="hobby__names">
+                                <i class='bx bxl-github hobby__icon'></i>
+                                <span class="hobby__name">Play A Game</span>
+                            </div>
+                            <div class="hobby__bar hobby__2">
+                                
+                            </div>
+                            <div>
+                                <span class="hobby__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="hobby__data">
+                            <div class="hobby__names">
+                                <i class='bx bxl-instagram hobby__icon' ></i>
+                                <span class="hobby__name">Play A instagram</span>
+                            </div>
+                            <div class="hobby__bar hobby__3">
+                                
+                            </div>
+                            <div>
+                                <span class="hobby__percentage">20%</span>
+                            </div>
+                        </div>
+                        <div class="hobby__data">
+                            <div class="hobby__names">
+                                <i class='bx bxs-paint hobby__icon'></i>
+                                <span class="hobby__name">Listen A Music</span>
+                            </div>
+                            <div class="hobby__bar hobby__4">
+                                
+                            </div>
+                            <div>
+                                <span class="hobby__percentage">70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>              
+                </div>
+            </section>
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/h.png" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'am Febri</h2>
+                        <p class="about__text">I live in Indonesia and I'm still an unemployed youth</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skill</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Skill?</h2>
+                        <p class="skills__text">I'm always trying to find my skill</p>
+                         <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name">Tidur</span>
+                            </div>
+                            <div class="skills__bar skills__tidur">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name">Makan</span>
+                            </div>
+                            <div class="skills__bar skills__makan">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name">Scroll</span>
+                            </div>
+                            <div class="skills__bar skills__scroll">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name">Penyimak</span>
+                            </div>
+                            <div class="skills__bar skills__penyimak">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>              
+                        <img src="assets/img/s.png" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Work</h2>
+                 <div class="work__container bd-grid">
+                    <div class="work__img">
+                        <img src="assets/img/c.png" alt="">
+                    </div>
+                    <p class="skills__text">I don't have a job, but I like customizing linux with other people's themes</p>
+                </div>
+            </section>
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Contact Me</p>
+            <div class="footer__social">
+                <a href="https://web.facebook.com/Nanthrone/" class="footer__icon"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/nantwem/" class="footer__icon"><i class='bx bxl-instagram'></i></a>
+                <a href="https://t.me/nantwem/" class="footer__icon"><i class='bx bxl-telegram'></i></a>
+            </div>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
